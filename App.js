@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { PaperProvider } from 'react-native-paper'
-import Language from './components/screens/Language'
+import Routes from './components/routes/Routes'
 
 
 export default class App extends Component {
   render() {
     return (
       <PaperProvider>
-        <Language />
+        <Routes />
       </PaperProvider>
       
     )
